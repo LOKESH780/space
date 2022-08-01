@@ -17,13 +17,21 @@ body{
   left:760px;
   top:35px;;
   padding:15px;
-  color: white;
   display: flex;
   gap:50px;
 font-family: 'Barlow Condensed', sans-serif;
   font-size: 1vw;
+  transition: 0.5s;
 }
-
+.navlink{
+  color: white;
+  text-decoration: none;
+}
+.navlink:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 2px solid;
+}
 /* .abs{
   position: absolute;
   width: 650px;
